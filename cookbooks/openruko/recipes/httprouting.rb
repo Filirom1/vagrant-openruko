@@ -2,6 +2,7 @@ git "/home/vagrant/openruko/httprouting" do
   user "vagrant"
   group "vagrant"
   repository "https://github.com/Filirom1/httprouting.git"
+  revision "v0.1.0"
   action :checkout
 end
 

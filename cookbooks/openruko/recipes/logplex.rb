@@ -2,6 +2,7 @@ git "/home/vagrant/openruko/logplex" do
   user "vagrant"
   group "vagrant"
   repository "https://github.com/openruko/logplex.git"
+  revision "v0.1.0"
   action :checkout
 end
 

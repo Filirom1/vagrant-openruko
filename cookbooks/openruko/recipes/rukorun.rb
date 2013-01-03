@@ -2,6 +2,7 @@ git "/home/vagrant/openruko/rukorun" do
   user "vagrant"
   group "vagrant"
   repository "https://github.com/openruko/rukorun.git"
+  revision "v0.1.0"
   action :checkout
 end
 
